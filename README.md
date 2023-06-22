@@ -16,8 +16,8 @@ Create a new rails app.
 
 Here is our plan to clean the apartment, at any time:
 - We should have a cleaning mission called `first_checkin` at the beginning of the booking
-- We should have  a cleaning mission called `last_checkout` before the owner comes back
-- We should have  a cleaning mission called `checkout_checkin` at the end of each reservation UNLESS there is alrea  dy a last_checkout at the same date
+- We should have a cleaning mission called `last_checkout` before the owner comes back
+- We should have a cleaning mission called `checkout_checkin` at the end of each reservation UNLESS there is already a last_checkout at the same date
 
 Reservation and Bookings could be cancelled, in this case we should not do missions related.
 
